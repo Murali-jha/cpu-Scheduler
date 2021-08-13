@@ -1,0 +1,26 @@
+name: scheduling
+description: Flutter app for visualizing computer resource scheduling algorithms
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.1.7+11
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^1.1.1
+  receive_sharing_intent: ^1.4.3
+  launch_review: ^2.0.0
+  share: ^0.6.5+4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
